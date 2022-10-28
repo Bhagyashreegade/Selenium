@@ -22,8 +22,13 @@ public class Links_BrokenLinks {
         List<WebElement> lists = driver.findElements(By.xpath("//a[@href]"));
         System.out.println("No of links on webpage is  : " + lists.size());
 
+
         //removing duplicate links
-        Set<WebElement> s = new HashSet<WebElement>(lists);
+        Set<String> s = new HashSet<>();
+        for (WebElement l : lists) {
+            String url = l.getAttribute("href");
+            s.add(url);
+        }
         System.out.println("The number of links after removing duplicates :  " + s.size());
         if (s.size() == lists.size()) {
             System.out.println("The Webpage doesn't have duplicate links");
@@ -34,9 +39,8 @@ public class Links_BrokenLinks {
         //Number of Broken links
 
         int brokenLinks = 0;
-        for (WebElement element : lists) {
-            System.out.println(element.getText());
-            String url = element.getAttribute("href");
+        for (String url : s) {
+            System.out.println(url);
             if (url == null || url.isEmpty()) {
                 System.out.println("URL is empty");
                 continue;
