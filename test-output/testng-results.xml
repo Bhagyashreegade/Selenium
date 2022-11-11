@@ -1,40 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="13" total="17" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="147" started-at="2022-11-11T13:53:28 EST" finished-at="2022-11-11T13:53:28 EST">
+  <suite name="All Test Suite" duration-ms="85" started-at="2022-11-11T14:39:48 EST" finished-at="2022-11-11T14:39:48 EST">
     <groups>
       <group name="SmokeTest">
-        <method signature="Car_Loan.APILoginCarLoan()[pri:0, instance:Car_Loan@6325a3ee]" name="APILoginCarLoan" class="Car_Loan"/>
-        <method signature="Home_Loan.MobileLoginHomeLoan()[pri:0, instance:Home_Loan@3a5ed7a6]" name="MobileLoginHomeLoan" class="Home_Loan"/>
-        <method signature="Personal_Loan.WebLoginPersonalLoan()[pri:0, instance:Personal_Loan@210366b4]" name="WebLoginPersonalLoan" class="Personal_Loan"/>
+        <method signature="Home_Loan.MobileLoginHomeLoan()[pri:0, instance:Home_Loan@551aa95a]" name="MobileLoginHomeLoan" class="Home_Loan"/>
       </group> <!-- SmokeTest -->
     </groups>
-    <test name="C:/Users/Bhagyashree/IdeaProjects/Selenium_October" duration-ms="147" started-at="2022-11-11T13:53:28 EST" finished-at="2022-11-11T13:53:28 EST">
+    <test name="C:/Users/Bhagyashree/IdeaProjects/Selenium_October" duration-ms="85" started-at="2022-11-11T14:39:48 EST" finished-at="2022-11-11T14:39:48 EST">
       <class name="Home_Loan">
-        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:Home_Loan@3a5ed7a6]" name="MobileLoginHomeLoan" duration-ms="0" started-at="2022-11-11T13:53:28 EST" finished-at="2022-11-11T13:53:28 EST">
+        <test-method status="PASS" signature="testData()[pri:0, instance:Home_Loan@551aa95a]" name="testData" is-config="true" duration-ms="0" started-at="2022-11-11T14:39:48 EST" finished-at="2022-11-11T14:39:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method status="PASS" signature="APILoginHomeLoan()[pri:0, instance:Home_Loan@551aa95a]" name="APILoginHomeLoan" duration-ms="15" started-at="2022-11-11T14:39:48 EST" finished-at="2022-11-11T14:39:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method status="PASS" signature="WebLoginHomeLoan()[pri:0, instance:Home_Loan@551aa95a]" name="WebLoginHomeLoan" duration-ms="0" started-at="2022-11-11T14:39:48 EST" finished-at="2022-11-11T14:39:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:Home_Loan@551aa95a]" name="MobileLoginHomeLoan" duration-ms="0" started-at="2022-11-11T14:39:48 EST" finished-at="2022-11-11T14:39:48 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLoginHomeLoan -->
       </class> <!-- Home_Loan -->
       <class name="FirstTestCase">
-        <test-method status="PASS" signature="login()[pri:0, instance:FirstTestCase@67b92f0a]" name="login" duration-ms="16" started-at="2022-11-11T13:53:28 EST" finished-at="2022-11-11T13:53:28 EST">
+        <test-method status="PASS" signature="dataPrinterBeforeMethod()[pri:0, instance:FirstTestCase@6321e813]" name="dataPrinterBeforeMethod" is-config="true" duration-ms="16" started-at="2022-11-11T14:39:48 EST" finished-at="2022-11-11T14:39:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataPrinterBeforeMethod -->
+        <test-method status="PASS" signature="dataPrinterBeforeGroup()[pri:0, instance:FirstTestCase@6321e813]" name="dataPrinterBeforeGroup" is-config="true" duration-ms="0" started-at="2022-11-11T14:39:48 EST" finished-at="2022-11-11T14:39:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataPrinterBeforeGroup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:FirstTestCase@6321e813]" name="setup" duration-ms="0" started-at="2022-11-11T14:39:48 EST" finished-at="2022-11-11T14:39:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dataPrinterBeforeClass()[pri:0, instance:FirstTestCase@6321e813]" name="dataPrinterBeforeClass" is-config="true" duration-ms="0" started-at="2022-11-11T14:39:48 EST" finished-at="2022-11-11T14:39:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataPrinterBeforeClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:FirstTestCase@6321e813]" name="teardown" duration-ms="0" started-at="2022-11-11T14:39:48 EST" finished-at="2022-11-11T14:39:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:FirstTestCase@6321e813]" name="login" duration-ms="0" started-at="2022-11-11T14:39:48 EST" finished-at="2022-11-11T14:39:48 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- FirstTestCase -->
-      <class name="Car_Loan">
-        <test-method status="PASS" signature="APILoginCarLoan()[pri:0, instance:Car_Loan@6325a3ee]" name="APILoginCarLoan" duration-ms="0" started-at="2022-11-11T13:53:28 EST" finished-at="2022-11-11T13:53:28 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- APILoginCarLoan -->
-      </class> <!-- Car_Loan -->
-      <class name="Personal_Loan">
-        <test-method status="PASS" signature="WebLoginPersonalLoan()[pri:0, instance:Personal_Loan@210366b4]" name="WebLoginPersonalLoan" duration-ms="0" started-at="2022-11-11T13:53:28 EST" finished-at="2022-11-11T13:53:28 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginPersonalLoan -->
-      </class> <!-- Personal_Loan -->
     </test> <!-- C:/Users/Bhagyashree/IdeaProjects/Selenium_October -->
   </suite> <!-- All Test Suite -->
 </testng-results>
