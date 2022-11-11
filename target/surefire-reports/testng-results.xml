@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="13" total="17" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-11T10:44:12 EST" name="All Test Suite" finished-at="2022-11-11T10:44:12 EST" duration-ms="62">
+  <suite started-at="2022-11-11T13:56:12 EST" name="All Test Suite" finished-at="2022-11-11T13:56:12 EST" duration-ms="65">
     <groups>
+      <group name="SmokeTest">
+        <method signature="Car_Loan.APILoginCarLoan()[pri:0, instance:Car_Loan@f5acb9d]" name="APILoginCarLoan" class="Car_Loan"/>
+        <method signature="Home_Loan.MobileLoginHomeLoan()[pri:0, instance:Home_Loan@543588e6]" name="MobileLoginHomeLoan" class="Home_Loan"/>
+        <method signature="Personal_Loan.WebLoginPersonalLoan()[pri:0, instance:Personal_Loan@6283d8b8]" name="WebLoginPersonalLoan" class="Personal_Loan"/>
+      </group> <!-- SmokeTest -->
     </groups>
-    <test started-at="2022-11-11T10:44:12 EST" name="C:/Users/Bhagyashree/IdeaProjects/Selenium_October" finished-at="2022-11-11T10:44:12 EST" duration-ms="62">
+    <test started-at="2022-11-11T13:56:12 EST" name="C:/Users/Bhagyashree/IdeaProjects/Selenium_October" finished-at="2022-11-11T13:56:12 EST" duration-ms="65">
+      <class name="Home_Loan">
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:Home_Loan@543588e6]" started-at="2022-11-11T13:56:12 EST" name="MobileLoginHomeLoan" finished-at="2022-11-11T13:56:12 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+      </class> <!-- Home_Loan -->
       <class name="FirstTestCase">
-        <test-method signature="login()[pri:0, instance:FirstTestCase@67c33749]" started-at="2022-11-11T10:44:12 EST" name="login" finished-at="2022-11-11T10:44:12 EST" duration-ms="15" status="PASS">
+        <test-method signature="login()[pri:0, instance:FirstTestCase@5d7148e2]" started-at="2022-11-11T13:56:12 EST" name="login" finished-at="2022-11-11T13:56:12 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- FirstTestCase -->
+      <class name="Car_Loan">
+        <test-method signature="APILoginCarLoan()[pri:0, instance:Car_Loan@f5acb9d]" started-at="2022-11-11T13:56:12 EST" name="APILoginCarLoan" finished-at="2022-11-11T13:56:12 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+      </class> <!-- Car_Loan -->
+      <class name="Personal_Loan">
+        <test-method signature="WebLoginPersonalLoan()[pri:0, instance:Personal_Loan@6283d8b8]" started-at="2022-11-11T13:56:12 EST" name="WebLoginPersonalLoan" finished-at="2022-11-11T13:56:12 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginPersonalLoan -->
+      </class> <!-- Personal_Loan -->
     </test> <!-- C:/Users/Bhagyashree/IdeaProjects/Selenium_October -->
   </suite> <!-- All Test Suite -->
 </testng-results>

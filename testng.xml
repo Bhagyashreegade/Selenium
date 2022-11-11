@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="SmokeTest"/>
+        </run>
+    </groups>
     <test verbose="2" preserve-order="true" name="C:/Users/Bhagyashree/IdeaProjects/Selenium_October">
         <classes>
+            <class name="Personal_Loan"></class>
+            <class name="Home_Loan"></class>
+            <class name="Car_Loan"></class>
+            <class name="RegularExpression">
+                <methods>
+                    <include name="Mobile.*"/>
+                </methods>
+            </class>
             <class name="FirstTestCase">
                 <methods>
                     <include name="login"></include>
