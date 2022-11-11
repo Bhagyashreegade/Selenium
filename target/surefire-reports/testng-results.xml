@@ -1,54 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-11T14:19:15 EST" name="All Test Suite" finished-at="2022-11-11T14:19:15 EST" duration-ms="263">
+  <suite started-at="2022-11-11T15:08:54 EST" name="All Test Suite" finished-at="2022-11-11T15:08:54 EST" duration-ms="154">
     <groups>
+      <group name="SmokeTest">
+        <method signature="Home_Loan.MobileLoginHomeLoan()[pri:0, instance:Home_Loan@57cf54e1]" name="MobileLoginHomeLoan" class="Home_Loan"/>
+      </group> <!-- SmokeTest -->
     </groups>
-    <test started-at="2022-11-11T14:19:15 EST" name="C:/Users/Bhagyashree/IdeaProjects/Selenium_October" finished-at="2022-11-11T14:19:15 EST" duration-ms="263">
-      <class name="RegularExpression">
-        <test-method signature="MobileLoginCarLoan()[pri:0, instance:RegularExpression@22ef9844]" started-at="2022-11-11T14:19:15 EST" name="MobileLoginCarLoan" finished-at="2022-11-11T14:19:15 EST" duration-ms="16" status="PASS">
+    <test started-at="2022-11-11T15:08:54 EST" name="C:/Users/Bhagyashree/IdeaProjects/Selenium_October" finished-at="2022-11-11T15:08:54 EST" duration-ms="154">
+      <class name="Home_Loan">
+        <test-method is-config="true" signature="testData()[pri:0, instance:Home_Loan@57cf54e1]" started-at="2022-11-11T15:08:54 EST" name="testData" finished-at="2022-11-11T15:08:54 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileLoginCarLoan -->
-        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:RegularExpression@22ef9844]" started-at="2022-11-11T14:19:15 EST" name="MobileLoginHomeLoan" finished-at="2022-11-11T14:19:15 EST" duration-ms="0" status="PASS">
+        </test-method> <!-- testData -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:Home_Loan@57cf54e1]" started-at="2022-11-11T15:08:54 EST" name="MobileLoginHomeLoan" finished-at="2022-11-11T15:08:54 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLoginHomeLoan -->
-        <test-method signature="MobileLoginPersonalLoan()[pri:0, instance:RegularExpression@22ef9844]" started-at="2022-11-11T14:19:15 EST" name="MobileLoginPersonalLoan" finished-at="2022-11-11T14:19:15 EST" duration-ms="0" status="PASS">
+        <test-method signature="WebLoginHomeLoan()[pri:0, instance:Home_Loan@57cf54e1]" started-at="2022-11-11T15:08:54 EST" name="WebLoginHomeLoan" finished-at="2022-11-11T15:08:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+        <test-method signature="APILoginHomeLoan()[pri:0, instance:Home_Loan@57cf54e1]" started-at="2022-11-11T15:08:54 EST" name="APILoginHomeLoan" finished-at="2022-11-11T15:08:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+      </class> <!-- Home_Loan -->
+      <class name="RegularExpression">
+        <test-method signature="WebLoginCarLoan()[pri:0, instance:RegularExpression@6404f418]" started-at="2022-11-11T15:08:54 EST" name="WebLoginCarLoan" description="This is a WebLogin car loan test" finished-at="2022-11-11T15:08:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method signature="MobileLoginPersonalLoan()[pri:0, instance:RegularExpression@6404f418]" started-at="2022-11-11T15:08:54 EST" name="MobileLoginPersonalLoan" finished-at="2022-11-11T15:08:54 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLoginPersonalLoan -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:RegularExpression@6404f418]" started-at="2022-11-11T15:08:54 EST" name="MobileLoginHomeLoan" finished-at="2022-11-11T15:08:54 EST" depends-on-methods="RegularExpression.WebLoginCarLoan" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method signature="LoginAPICarLoan()[pri:2, instance:RegularExpression@6404f418]" started-at="2022-11-11T15:08:54 EST" name="LoginAPICarLoan" finished-at="2022-11-11T15:08:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPICarLoan -->
+        <test-method signature="MobileLoginCarLoan()[pri:1, instance:RegularExpression@6404f418]" started-at="2022-11-11T15:08:54 EST" name="MobileLoginCarLoan" finished-at="2022-11-11T15:08:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
       </class> <!-- RegularExpression -->
       <class name="FirstTestCase">
-        <test-method signature="login()[pri:0, instance:FirstTestCase@4803b726]" started-at="2022-11-11T14:19:15 EST" name="login" finished-at="2022-11-11T14:19:15 EST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="dataPrinterBeforeMethod()[pri:0, instance:FirstTestCase@ffaa6af]" started-at="2022-11-11T15:08:54 EST" name="dataPrinterBeforeMethod" finished-at="2022-11-11T15:08:54 EST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataPrinterBeforeMethod -->
+        <test-method is-config="true" signature="dataPrinterBeforeGroup()[pri:0, instance:FirstTestCase@ffaa6af]" started-at="2022-11-11T15:08:54 EST" name="dataPrinterBeforeGroup" finished-at="2022-11-11T15:08:54 EST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataPrinterBeforeGroup -->
+        <test-method signature="login()[pri:0, instance:FirstTestCase@ffaa6af]" started-at="2022-11-11T15:08:54 EST" name="login" finished-at="2022-11-11T15:08:54 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="dataPrinterBeforeClass()[pri:0, instance:FirstTestCase@4803b726]" started-at="2022-11-11T14:19:15 EST" name="dataPrinterBeforeClass" finished-at="2022-11-11T14:19:15 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataPrinterBeforeClass -->
-        <test-method is-config="true" signature="dataPrinterBeforeMethod()[pri:0, instance:FirstTestCase@4803b726]" started-at="2022-11-11T14:19:15 EST" name="dataPrinterBeforeMethod" finished-at="2022-11-11T14:19:15 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataPrinterBeforeMethod -->
-        <test-method signature="setup()[pri:0, instance:FirstTestCase@4803b726]" started-at="2022-11-11T14:19:15 EST" name="setup" finished-at="2022-11-11T14:19:15 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="dataPrinterBeforeMethod()[pri:0, instance:FirstTestCase@4803b726]" started-at="2022-11-11T14:19:15 EST" name="dataPrinterBeforeMethod" finished-at="2022-11-11T14:19:15 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataPrinterBeforeMethod -->
-        <test-method is-config="true" signature="dataPrinterBeforeMethod()[pri:0, instance:FirstTestCase@4803b726]" started-at="2022-11-11T14:19:15 EST" name="dataPrinterBeforeMethod" finished-at="2022-11-11T14:19:15 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataPrinterBeforeMethod -->
-        <test-method signature="teardown()[pri:0, instance:FirstTestCase@4803b726]" started-at="2022-11-11T14:19:15 EST" name="teardown" finished-at="2022-11-11T14:19:15 EST" duration-ms="0" status="PASS">
+        <test-method signature="teardown()[pri:0, instance:FirstTestCase@ffaa6af]" started-at="2022-11-11T15:08:54 EST" name="teardown" finished-at="2022-11-11T15:08:54 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="dataPrinterBeforeClass()[pri:0, instance:FirstTestCase@ffaa6af]" started-at="2022-11-11T15:08:54 EST" name="dataPrinterBeforeClass" finished-at="2022-11-11T15:08:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataPrinterBeforeClass -->
+        <test-method signature="setup()[pri:0, instance:FirstTestCase@ffaa6af]" started-at="2022-11-11T15:08:54 EST" name="setup" finished-at="2022-11-11T15:08:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
       </class> <!-- FirstTestCase -->
     </test> <!-- C:/Users/Bhagyashree/IdeaProjects/Selenium_October -->
   </suite> <!-- All Test Suite -->
