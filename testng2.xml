@@ -3,13 +3,14 @@
 <suite name="All Test Suite">
      <test verbose="2" preserve-order="true" name="First Test Suite">
         <classes>
-            <class name="Home_Loan"/>
+            <class name="Personal_Loan"/>
+            <class name="Car_Loan"></class>
         </classes>
     </test>
 
     <test name="Second Test Suite">
         <classes>
-            <class name="FirstTestCase"></class>
+            <class name="RegularExpression"></class>
         </classes>
     </test>
 </suite>
