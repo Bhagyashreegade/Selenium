@@ -1,21 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.488 s <<< FAILURE! - in TestSuite
-RegularExpression.mobileLoginPersonalLoan  Time elapsed: 0.317 s  <<< FAILURE!
-org.testng.internal.thread.ThreadTimeoutException: Method RegularExpression.mobileLoginPersonalLoan() didn't finish within the time-out 300
-	at java.base@11.0.13/java.lang.Thread.sleep(Native Method)
-	at app//RegularExpression.mobileLoginPersonalLoan(RegularExpression.java:17)
-	at java.base@11.0.13/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@11.0.13/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base@11.0.13/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@11.0.13/java.lang.reflect.Method.invoke(Method.java:566)
-	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:44)
-	at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:72)
-	at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:10)
-	at java.base@11.0.13/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base@11.0.13/java.lang.Thread.run(Thread.java:834)
-
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.625 s - in TestSuite

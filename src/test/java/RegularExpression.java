@@ -12,9 +12,8 @@ public class RegularExpression {
         System.out.println("MobileLoginCarLoan");
     }
 
-    @Test(timeOut = 300)
-    public void mobileLoginPersonalLoan() throws InterruptedException {
-        Thread.sleep(500);
+    @Test(timeOut = 300) //failed bz it didn't finish within the timeout define
+    public void mobileLoginPersonalLoan() {
         System.out.println("MobileLoginPersonalLoan");
     }
 
