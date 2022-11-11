@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="122" started-at="2022-11-11T10:43:34 EST" finished-at="2022-11-11T10:43:34 EST">
+    <groups>
+    </groups>
+    <test name="C:/Users/Bhagyashree/IdeaProjects/Selenium_October" duration-ms="122" started-at="2022-11-11T10:43:34 EST" finished-at="2022-11-11T10:43:34 EST">
+      <class name="FirstTestCase">
+        <test-method status="PASS" signature="login()[pri:0, instance:FirstTestCase@6536e911]" name="login" duration-ms="16" started-at="2022-11-11T10:43:34 EST" finished-at="2022-11-11T10:43:34 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- FirstTestCase -->
+    </test> <!-- C:/Users/Bhagyashree/IdeaProjects/Selenium_October -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
