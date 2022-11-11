@@ -3,17 +3,17 @@ import org.testng.annotations.Test;
 public class Car_Loan {
 
     @Test
-    public void WebLoginCarLoan() {
+    public void webLoginCarLoan() {
         System.out.println("Web Login Home Loan");
     }
 
     @Test
-    public void MobileLoginCarLoan() {
+    public void mobileLoginCarLoan() {
         System.out.println("Mobile Login Home Loan");
     }
 
     @Test(groups = {"SmokeTest"})
-    public void APILoginCarLoan() {
+    public void aPILoginCarLoan() {
         System.out.println("API Login Home Loan");
     }
 }

@@ -9,17 +9,17 @@ public class Home_Loan {
     }
 
     @Test
-    public void WebLoginHomeLoan() {
+    public void webLoginHomeLoan() {
         System.out.println("Web Login Home Loan");
     }
 
     @Test(groups = {"SmokeTest"})
-    public void MobileLoginHomeLoan() {
+    public void mobileLoginHomeLoan() {
         System.out.println("Mobile Login Home Loan");
     }
 
     @Test
-    public void APILoginHomeLoan() {
+    public void aPILoginHomeLoan() {
         System.out.println("API Login Home Loan");
     }
 }

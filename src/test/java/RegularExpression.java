@@ -8,22 +8,22 @@ public class RegularExpression {
     }
 
     @Test (priority = 1)
-    public void MobileLoginCarLoan() {
+    public void mobileLoginCarLoan() {
         System.out.println("MobileLoginCarLoan");
     }
 
     @Test (timeOut = 3)
-    public void MobileLoginPersonalLoan() {
+    public void mobileLoginPersonalLoan() {
         System.out.println("MobileLoginPersonalLoan");
     }
 
     @Test (dependsOnMethods = {"WebLoginCarLoan"})
-    public void MobileLoginHomeLoan() {
+    public void mobileLoginHomeLoan() {
         System.out.println("MobileLoginHomeLoan");
     }
 
     @Test (priority = 2)
-    public void LoginAPICarLoan() {
+    public void loginAPICarLoan() {
         System.out.println("LoginAPICarLoan");
     }
 }
