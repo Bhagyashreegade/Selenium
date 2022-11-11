@@ -7,22 +7,23 @@ public class RegularExpression {
         System.out.println("WebLoginCarLoan");
     }
 
-    @Test (priority = 1)
+    @Test(priority = 1)
     public void mobileLoginCarLoan() {
         System.out.println("MobileLoginCarLoan");
     }
 
-    @Test (timeOut = 3)
-    public void mobileLoginPersonalLoan() {
+    @Test(timeOut = 300)
+    public void mobileLoginPersonalLoan() throws InterruptedException {
+        Thread.sleep(500);
         System.out.println("MobileLoginPersonalLoan");
     }
 
-    @Test (dependsOnMethods = {"WebLoginCarLoan"})
+    @Test(dependsOnMethods = {"WebLoginCarLoan"})
     public void mobileLoginHomeLoan() {
         System.out.println("MobileLoginHomeLoan");
     }
 
-    @Test (priority = 2)
+    @Test(priority = 2)
     public void loginAPICarLoan() {
         System.out.println("LoginAPICarLoan");
     }
