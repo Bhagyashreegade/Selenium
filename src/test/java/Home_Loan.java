@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -11,6 +12,7 @@ public class Home_Loan {
     @Test
     public void webLoginHomeLoan() {
         System.out.println("Web Login Home Loan");
+        Assert.assertTrue(true);
     }
 
     @Test(groups = {"SmokeTest"})

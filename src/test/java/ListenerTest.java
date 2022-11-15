@@ -2,6 +2,9 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+//ITestListener is the interface which implements the TestNG Listeners
+//Listeners can be used at Class level(using @Listener annotation) and also in testng.xml file (using tag <Listeners>)
+
 public class ListenerTest implements ITestListener {
     @Override
     public void onFinish(ITestContext Result) {
