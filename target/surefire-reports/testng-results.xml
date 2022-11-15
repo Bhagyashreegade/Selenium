@@ -1,67 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-14T19:30:14 EST" name="All Test Suite" finished-at="2022-11-14T19:30:14 EST" duration-ms="154">
+  <suite started-at="2022-11-14T22:42:36 EST" name="All Test Suite" finished-at="2022-11-14T22:42:36 EST" duration-ms="84">
     <groups>
-      <group name="SmokeTest">
-        <method signature="Car_Loan.aPILoginCarLoan()[pri:0, instance:Car_Loan@383bfa16]" name="aPILoginCarLoan" class="Car_Loan"/>
-        <method signature="Personal_Loan.webLoginPersonalLoan()[pri:0, instance:Personal_Loan@57d7f8ca]" name="webLoginPersonalLoan" class="Personal_Loan"/>
-      </group> <!-- SmokeTest -->
+      <group name="sanity">
+        <method signature="GroupingExample.test1()[pri:0, instance:GroupingExample@76c3e77a]" name="test1" class="GroupingExample"/>
+        <method signature="GroupingExample.test2()[pri:0, instance:GroupingExample@76c3e77a]" name="test2" class="GroupingExample"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2022-11-14T19:30:14 EST" name="Third Test Suite" finished-at="2022-11-14T19:30:14 EST" duration-ms="69">
-      <class name="Car_Loan">
-        <test-method signature="aPILoginCarLoan()[pri:0, instance:Car_Loan@383bfa16]" started-at="2022-11-14T19:30:14 EST" name="aPILoginCarLoan" finished-at="2022-11-14T19:30:14 EST" duration-ms="16" status="PASS">
+    <test started-at="2022-11-14T22:42:36 EST" name="Annotations demo" finished-at="2022-11-14T22:42:36 EST" duration-ms="84">
+      <class name="GroupingExample">
+        <test-method signature="test2()[pri:0, instance:GroupingExample@76c3e77a]" started-at="2022-11-14T22:42:36 EST" name="test2" finished-at="2022-11-14T22:42:36 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aPILoginCarLoan -->
-        <test-method signature="webLoginCarLoan()[pri:0, instance:Car_Loan@383bfa16]" started-at="2022-11-14T19:30:14 EST" name="webLoginCarLoan" finished-at="2022-11-14T19:30:14 EST" duration-ms="0" status="PASS">
+        </test-method> <!-- test2 -->
+        <test-method signature="test1()[pri:0, instance:GroupingExample@76c3e77a]" started-at="2022-11-14T22:42:36 EST" name="test1" finished-at="2022-11-14T22:42:36 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webLoginCarLoan -->
-        <test-method signature="mobileLoginCarLoan()[pri:0, instance:Car_Loan@383bfa16]" started-at="2022-11-14T19:30:14 EST" name="mobileLoginCarLoan" finished-at="2022-11-14T19:30:14 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLoginCarLoan -->
-      </class> <!-- Car_Loan -->
-      <class name="Personal_Loan">
-        <test-method signature="aPILoginPersonalLoan()[pri:0, instance:Personal_Loan@57d7f8ca]" started-at="2022-11-14T19:30:14 EST" name="aPILoginPersonalLoan" finished-at="2022-11-14T19:30:14 EST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aPILoginPersonalLoan -->
-        <test-method signature="webLoginPersonalLoan()[pri:0, instance:Personal_Loan@57d7f8ca]" started-at="2022-11-14T19:30:14 EST" name="webLoginPersonalLoan" finished-at="2022-11-14T19:30:14 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLoginPersonalLoan -->
-        <test-method signature="mobileLoginPersonalLoan()[pri:0, instance:Personal_Loan@57d7f8ca]" started-at="2022-11-14T19:30:14 EST" name="mobileLoginPersonalLoan" finished-at="2022-11-14T19:30:14 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLoginPersonalLoan -->
-      </class> <!-- Personal_Loan -->
-    </test> <!-- Third Test Suite -->
-    <test started-at="2022-11-14T19:30:14 EST" name="Fourth Test Suite" finished-at="2022-11-14T19:30:14 EST" duration-ms="32">
-      <class name="RegularExpression">
-        <test-method signature="WebLoginCarLoan()[pri:0, instance:RegularExpression@290222c1]" started-at="2022-11-14T19:30:14 EST" name="WebLoginCarLoan" description="This is a WebLogin car loan test" finished-at="2022-11-14T19:30:14 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginCarLoan -->
-        <test-method signature="mobileLoginHomeLoan()[pri:0, instance:RegularExpression@290222c1]" started-at="2022-11-14T19:30:14 EST" name="mobileLoginHomeLoan" finished-at="2022-11-14T19:30:14 EST" depends-on-methods="RegularExpression.WebLoginCarLoan" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLoginHomeLoan -->
-        <test-method signature="mobileLoginPersonalLoan()[pri:0, instance:RegularExpression@290222c1]" started-at="2022-11-14T19:30:14 EST" name="mobileLoginPersonalLoan" finished-at="2022-11-14T19:30:14 EST" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLoginPersonalLoan -->
-        <test-method signature="loginAPICarLoan()[pri:2, instance:RegularExpression@290222c1]" started-at="2022-11-14T19:30:14 EST" name="loginAPICarLoan" finished-at="2022-11-14T19:30:14 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAPICarLoan -->
-        <test-method signature="mobileLoginCarLoan()[pri:1, instance:RegularExpression@290222c1]" started-at="2022-11-14T19:30:14 EST" name="mobileLoginCarLoan" finished-at="2022-11-14T19:30:14 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLoginCarLoan -->
-      </class> <!-- RegularExpression -->
-    </test> <!-- Fourth Test Suite -->
+        </test-method> <!-- test1 -->
+      </class> <!-- GroupingExample -->
+    </test> <!-- Annotations demo -->
   </suite> <!-- All Test Suite -->
 </testng-results>
