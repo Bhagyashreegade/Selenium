@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class RegularExpression {
@@ -15,6 +16,7 @@ public class RegularExpression {
     @Test(timeOut = 300) //failed bz it didn't finish within the timeout define
     public void mobileLoginPersonalLoan() {
         System.out.println("MobileLoginPersonalLoan");
+        Assert.assertEquals(1,1);
     }
 
     @Test(dependsOnMethods = {"WebLoginCarLoan"})
