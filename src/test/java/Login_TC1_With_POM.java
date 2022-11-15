@@ -15,7 +15,7 @@ public class Login_TC1_With_POM {
 
         //Enter username & password
         login.enterUsername("bhagyashreegade91@gmail.com");
-        login.enterPassword("Ronaldo@30twins");
+        login.enterPassword("test123");
 
         //Click on login button
         login.clickLogin();
