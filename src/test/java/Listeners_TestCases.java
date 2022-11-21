@@ -17,6 +17,7 @@ public class Listeners_TestCases {
     public void test2() {
         System.out.println("This is test 2");
         Assert.assertEquals("A", "B");
+
     }
 
     @Test

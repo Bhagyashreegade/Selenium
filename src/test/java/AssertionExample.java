@@ -26,6 +26,7 @@ public class AssertionExample {  //combination of TestNG features---> TestNG ann
     void logoTest() {
         WebElement logo = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[1]/img"));
         Assert.assertTrue(logo.isDisplayed(), "Logo is not displayed");
+        Assert.assertTrue(true);
     }
 
     @Test(priority = 2)
