@@ -3,7 +3,11 @@
 <suite name="All Test Suite">
      <test verbose="2" preserve-order="true" name="Third Test Suite">
         <classes>
-            <class name="Personal_Loan"/>
+            <class name="Personal_Loan">
+                <methods>
+                    <include name="webLoginPersonalLoan"/>
+                </methods>
+            </class>
             <class name="Car_Loan"></class>
         </classes>
     </test>

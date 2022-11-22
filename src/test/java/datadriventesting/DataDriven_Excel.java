@@ -73,6 +73,9 @@ public class DataDriven_Excel {
 
         String loginData[][] = new String[totalrows][totalcols];
         for (int i = 1; i <= totalrows; i++) {
+//            if(i==0){ to skip the row
+//                continue;
+//            }
             for (int j = 0; j < totalcols; j++) {
                 loginData[i - 1][j] = xu.getCellData("TestData", i, j);
 

@@ -3,13 +3,13 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="Annotations demo">
         <classes>
-            <class name="Annotations_Selenium">
+            <class name="annotations.Annotations_Selenium">
                 <methods>
                     <include name="test1"/>
                     <include name="test2"/>
                 </methods>
             </class>
-            <class name="Annotations_2">
+            <class name="annotations.Annotations_2">
                 <methods>
                     <include name="test3"/>
                     <include name="test4"/>
