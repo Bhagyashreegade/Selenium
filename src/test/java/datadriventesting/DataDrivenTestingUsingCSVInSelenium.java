@@ -17,13 +17,13 @@ import java.time.Duration;
 
 public class DataDrivenTestingUsingCSVInSelenium {
 
-    String CSV_Path= "C:\\CSV\\TestData.csv";
-    private CSVReader csvReader;
-    String [] csvCell;
+    String CSV_Path = "C:\\CSV\\TestData.csv";
+    String[] csvCell;
     WebDriver driver;
+    private CSVReader csvReader;
 
     @BeforeClass  //will be executing once before the class
-    public void setup(){
+    public void setup() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -41,36 +41,36 @@ public class DataDrivenTestingUsingCSVInSelenium {
         Thread.sleep(3000);
         driver.findElement(By.xpath("//a[@id='createAccountSubmit']")).click();
 
-        while((csvCell= csvReader.readNext())!= null){
-            String CustomerName= csvCell[0];
-            String CustomerEmail= csvCell[1];
-            String CustomerPassword= csvCell[2];
-            String CustomerConfirmPassword= csvCell[3];
+        while ((csvCell = csvReader.readNext()) != null) {
+            String CustomerName = csvCell[0];
+            String CustomerEmail = csvCell[1];
+            String CustomerPassword = csvCell[2];
+            String CustomerConfirmPassword = csvCell[3];
 
-           WebElement customerName= driver.findElement(By.id("ap_customer_name"));
-           customerName.clear();
-           customerName.sendKeys(CustomerName);
+            WebElement customerName = driver.findElement(By.id("ap_customer_name"));
+            customerName.clear();
+            customerName.sendKeys(CustomerName);
 
-           WebElement customerEmail= driver.findElement(By.id("ap_email"));
-           customerEmail.clear();
-           customerEmail.sendKeys(CustomerEmail);
+            WebElement customerEmail = driver.findElement(By.id("ap_email"));
+            customerEmail.clear();
+            customerEmail.sendKeys(CustomerEmail);
 
-           WebElement customerPassword= driver.findElement(By.id("ap_password"));
-           customerPassword.clear();
-           customerPassword.sendKeys(CustomerPassword);
+            WebElement customerPassword = driver.findElement(By.id("ap_password"));
+            customerPassword.clear();
+            customerPassword.sendKeys(CustomerPassword);
 
-           WebElement customerConfirmPassword= driver.findElement(By.id("ap_password_check"));
-           customerConfirmPassword.clear();
-           customerConfirmPassword.sendKeys(CustomerConfirmPassword);
+            WebElement customerConfirmPassword = driver.findElement(By.id("ap_password_check"));
+            customerConfirmPassword.clear();
+            customerConfirmPassword.sendKeys(CustomerConfirmPassword);
 
-          WebElement login = driver.findElement(By.id("continue"));
-          login.click();
+            WebElement login = driver.findElement(By.id("continue"));
+            login.click();
 
         }
     }
 
     @AfterClass
-    public void tearDown(){
+    public void tearDown() {
         driver.close();
         driver.quit();
     }
