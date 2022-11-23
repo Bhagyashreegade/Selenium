@@ -33,12 +33,10 @@ public class DataDrivenTestingUsingCSVInSelenium {
 
     @Test
 
-    public void dataRead_CSV() throws IOException, CsvException, InterruptedException {
+    public void dataRead_CSV() throws IOException {
 
         csvReader = new CSVReader(new FileReader(CSV_Path));   //object created of CSVReader
-        Thread.sleep(3000);
         driver.findElement(By.xpath("//a[@id='nav-link-accountList']")).click();
-        Thread.sleep(3000);
         driver.findElement(By.xpath("//a[@id='createAccountSubmit']")).click();
 
         while ((csvCell = csvReader.readNext()) != null) {
@@ -74,6 +72,4 @@ public class DataDrivenTestingUsingCSVInSelenium {
         driver.close();
         driver.quit();
     }
-
-
 }
