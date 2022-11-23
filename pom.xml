@@ -64,7 +64,6 @@
             <version>2.11.0</version>
         </dependency>
 
-
     </dependencies>
 
     <build>
@@ -76,7 +75,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>
-                            testng4.xml
+                            testng6.xml
                         </suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>

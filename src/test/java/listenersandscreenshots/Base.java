@@ -1,6 +1,8 @@
 package listenersandscreenshots;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import ru.yandex.qatools.ashot.AShot;
@@ -23,11 +25,19 @@ public class Base {
     }
 
     public void failed() {
+        File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
         Screenshot screenshot1 = new AShot().takeScreenshot(driver);
         try {
-            ImageIO.write(screenshot1.getImage(), "PNG", new File("C:\\screenshots\\orangehrm.bmp"));
+            ImageIO.write(screenshot1.getImage(),"BMP",new File("C:\\screenshots\\orangehrm.bmp"));
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
+//        Screenshot screenshot1 = new AShot().takeScreenshot(driver);
+//        try {
+//            ImageIO.write(screenshot1.getImage(), "PNG", new File("C:\\screenshots\\orangehrm.bmp"));
+//        } catch (IOException e) {
+//            System.out.println(e.getMessage());
+//        }
     }
 }

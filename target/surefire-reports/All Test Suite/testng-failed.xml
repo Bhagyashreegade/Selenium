@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="C:/Users/Bhagyashree/IdeaProjects/Selenium_October(failed)" verbose="0">
+<suite thread-count="2" parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="log(failed)" verbose="0">
     <classes>
-      <class name="RegularExpression">
+      <class name="reporterlogandlog4j.GoogleTesting">
         <methods>
-          <include name="mobileLoginPersonalLoan"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- RegularExpression -->
+      </class> <!-- reporterlogandlog4j.GoogleTesting -->
     </classes>
-  </test> <!-- C:/Users/Bhagyashree/IdeaProjects/Selenium_October(failed) -->
+  </test> <!-- log(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
