@@ -24,12 +24,12 @@ public class Base {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
 
-    public void failed() {
+    public void failed(String testMethodName) {
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
         Screenshot screenshot1 = new AShot().takeScreenshot(driver);
         try {
-            ImageIO.write(screenshot1.getImage(),"BMP",new File("C:\\screenshots\\orangehrm.bmp"));
+            ImageIO.write(screenshot1.getImage(),"BMP",new File("C:\\screenshots\\orangehrm.bmp"  +testMethodName+ "_" + ".bmp"));
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }

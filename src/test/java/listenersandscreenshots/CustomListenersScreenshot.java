@@ -25,7 +25,7 @@ public class CustomListenersScreenshot extends Base implements ITestListener {
     @Override
     public void onTestFailure(ITestResult Result) {
         System.out.println("The name of the testcase failed is :" + Result.getName());
-        failed();
+        failed(Result.getMethod().getMethodName());
     }
 
     // When Test case get Skipped, this method is called.
