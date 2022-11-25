@@ -84,13 +84,6 @@
                             testng6.xml
                         </suiteXmlFile>
                     </suiteXmlFiles>
-                    <systemPropertyVariables>
-                        <browser>browser
-                        </browser>
-                        <url>url</url>
-
-                    </systemPropertyVariables>
-
                 </configuration>
             </plugin>
         </plugins>

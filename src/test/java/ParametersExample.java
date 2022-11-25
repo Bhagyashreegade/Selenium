@@ -17,12 +17,12 @@ public class ParametersExample {   //testng5.xml
 
     @BeforeClass
     @Parameters({"browser", "url"})
-    void setUp(String browser, String app) {
+    void setUp(String browser, String url) {
 
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-            driver.get(app);
+            driver.get(url);
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10000));
         }
     }
