@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
     <line>
       <![CDATA[Test 1 execution start]]>
@@ -11,63 +11,26 @@
       <![CDATA[Test 3 execution start]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-11-22T18:55:56 EST" name="All Test Suite" finished-at="2022-11-22T18:55:56 EST" duration-ms="75">
+  <suite name="All Test Suite" duration-ms="249" started-at="2022-11-24T19:30:35 EST" finished-at="2022-11-24T19:30:35 EST">
     <groups>
     </groups>
-    <test started-at="2022-11-22T18:55:56 EST" name="log" finished-at="2022-11-22T18:55:56 EST" duration-ms="75">
+    <test name="log" duration-ms="249" started-at="2022-11-24T19:30:35 EST" finished-at="2022-11-24T19:30:35 EST">
       <class name="reporterlogandlog4j.GoogleTesting">
-        <test-method signature="test1()[pri:0, instance:reporterlogandlog4j.GoogleTesting@71def8f8]" started-at="2022-11-22T18:55:56 EST" name="test1" finished-at="2022-11-22T18:55:56 EST" duration-ms="12" status="PASS">
+        <test-method status="PASS" signature="test1()[pri:0, instance:reporterlogandlog4j.GoogleTesting@3e57cd70]" name="test1" duration-ms="47" started-at="2022-11-24T19:30:35 EST" finished-at="2022-11-24T19:30:35 EST">
           <reporter-output>
             <line>
               <![CDATA[Test 1 execution start]]>
             </line>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:reporterlogandlog4j.GoogleTesting@71def8f8]" started-at="2022-11-22T18:55:56 EST" name="test2" finished-at="2022-11-22T18:55:56 EST" duration-ms="2" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at reporterlogandlog4j.GoogleTesting.test2(GoogleTesting.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:reporterlogandlog4j.GoogleTesting@3e57cd70]" name="test2" duration-ms="2" started-at="2022-11-24T19:30:35 EST" finished-at="2022-11-24T19:30:35 EST">
           <reporter-output>
             <line>
               <![CDATA[Test 2 execution start]]>
             </line>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:0, instance:reporterlogandlog4j.GoogleTesting@71def8f8]" started-at="2022-11-22T18:55:56 EST" name="test3" finished-at="2022-11-22T18:55:56 EST" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="test3()[pri:0, instance:reporterlogandlog4j.GoogleTesting@3e57cd70]" name="test3" duration-ms="0" started-at="2022-11-24T19:30:35 EST" finished-at="2022-11-24T19:30:35 EST">
           <reporter-output>
             <line>
               <![CDATA[Test 3 execution start]]>

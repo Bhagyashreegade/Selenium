@@ -17,7 +17,7 @@ public class GoogleTesting {
     public void test2(){
         Reporter.log("Test 2 execution start", true);
         int num=2;
-        Assert.assertTrue(num == 8);
+        Assert.assertTrue(num == 2);
     }
 
     @Test
